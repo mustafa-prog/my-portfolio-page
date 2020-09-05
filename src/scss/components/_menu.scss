@@ -4,14 +4,14 @@
   top: 3.5rem;
   z-index: 20;
   cursor: pointer;
-  @include easeOut();
+  @include easeOut;
 
   .btn-line {
     width: 2.8rem;
     height: 0.3rem;
     background-color: set-text-color($primary-color);
     margin-bottom: 0.5rem;
-    @include easeOut();
+    @include easeOut;
   }
 
   &.close {
@@ -61,7 +61,7 @@
     background-color: darken($primary-color, 5);
     list-style: none;
     transform: translate3d(0, -100%, 0);
-    @include easeOut();
+    @include easeOut;
 
     &.show {
       //Slide in from top
@@ -72,7 +72,7 @@
   &-branding {
     background-color: $primary-color;
     transform: translate3d(0, 100%, 0);
-    @include easeOut();
+    @include easeOut;
 
     &.show {
       //Slide in from bottom
@@ -92,32 +92,6 @@
         0% 60%,
         10% 20%
       );
-
-      // clip-path: polygon(
-      //   30% 0%,
-      //   70% 0%,
-      //   100% 30%,
-      //   100% 70%,
-      //   70% 100%,
-      //   30% 100%,
-      //   0% 70%,
-      //   0% 30%
-      // );
-
-      //clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-      //clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-      // clip-path: polygon(
-      //   30% 0%,
-      //   70% 0%,
-      //   100% 30%,
-      //   100% 70%,
-      //   70% 100%,
-      //   30% 100%,
-      //   0% 70%,
-      //   0% 30%
-      // );
-      //clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-
       //border: solid 0.3rem $secondary-color;
       //border-radius: 50%;
     }
@@ -125,7 +99,7 @@
 
   .nav-item {
     transform: translate3d(60rem, 0, 0);
-    @include easeOut();
+    @include easeOut;
 
     &.show {
       //Slide in from bottom
@@ -145,7 +119,7 @@
     text-transform: uppercase;
     font-weight: 300;
     color: set-text-color($primary-color);
-    @include easeOut();
+    @include easeOut;
 
     &:hover {
       color: $secondary-color;
