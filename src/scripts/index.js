@@ -1,5 +1,3 @@
-// Any code you will write for your website (in the future!) should go here
-
 const menuBtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
 const menuBranding = document.querySelector('.menu-branding');
